@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1920px; }
+  .poster{
+    width:1080px; height:1920px; position:relative; overflow:hidden;
+    background:linear-gradient(168deg,#FCEFEA 0%,#F8DFD5 50%,#F0C7B9 100%);
+    font-family:"Noto Sans CJK SC",sans-serif; color:#3A2A28;
+  }
+  /* 顶部柔光 */
+  .poster::after{
+    content:""; position:absolute; inset:0; pointer-events:none;
+    background:radial-gradient(120% 70% at 50% 14%,rgba(255,255,255,.55),rgba(255,255,255,0) 58%);
+  }
+  .brand{
+    position:absolute; top:84px; left:0; right:0; text-align:center; z-index:3;
+    font-family:"Noto Serif CJK SC",serif; font-weight:700; font-size:38px; letter-spacing:10px; color:#3A2A28;
+  }
+  .brand small{ display:block; margin-top:14px; font-family:"Noto Sans CJK SC",sans-serif;
+    font-size:22px; letter-spacing:13px; font-weight:500; color:#B07C77; }
+  /* 巨型 0 签名 */
+  .zero{
+    position:absolute; top:120px; left:50%; transform:translateX(-50%);
+    font-family:"Noto Serif CJK SC",serif; font-weight:900; font-size:1180px; line-height:1;
+    color:rgba(154,74,87,.09); z-index:0; user-select:none;
+  }
+  /* 产品图 multiply 融入 */
+  .can{
+    position:absolute; top:300px; left:50%; transform:translateX(-50%);
+    width:580px; mix-blend-mode:multiply; z-index:1;
+    filter:drop-shadow(0 36px 44px rgba(154,74,87,.22));
+  }
+  .eyebrow{
+    position:absolute; top:902px; left:0; right:0; text-align:center; z-index:2;
+    font-size:26px; letter-spacing:18px; font-weight:600; color:#A85C61; text-indent:18px;
+  }
+  .headline{
+    position:absolute; top:960px; left:0; right:0; text-align:center; z-index:2;
+    font-family:"Noto Serif CJK SC",serif; font-weight:700; font-size:128px; line-height:1.16; letter-spacing:8px;
+  }
+  .headline .accent{ color:#9A4A57; }
+  .sub{
+    position:absolute; top:1280px; left:0; right:0; text-align:center; z-index:2;
+    font-size:31px; letter-spacing:7px; color:#6E534E; font-weight:400;
+  }
+  .divider{
+    position:absolute; top:1372px; left:50%; transform:translateX(-50%);
+    width:110px; height:2px; background:rgba(58,42,40,.28); z-index:2;
+  }
+  .price{ position:absolute; top:1418px; left:0; right:0; text-align:center; z-index:2; }
+  .price .label{ font-size:28px; letter-spacing:10px; color:#A85C61; }
+  .price .amount{
+    font-family:"Noto Serif CJK SC",serif; font-weight:900; font-size:158px; color:#9A4A57; line-height:1.05;
+  }
+  .price .amount .cur{ font-size:66px; vertical-align:8px; margin-right:4px; }
+  .price .unit{ font-size:30px; color:#6E534E; letter-spacing:3px; }
+  .cta{
+    position:absolute; top:1672px; left:50%; transform:translateX(-50%); z-index:2;
+    background:#9A4A57; color:#fff; font-size:39px; letter-spacing:10px; font-weight:600; text-indent:10px;
+    padding:32px 92px; border-radius:60px; box-shadow:0 18px 40px rgba(154,74,87,.38);
+  }
+  .trust{
+    position:absolute; bottom:84px; left:0; right:0; text-align:center; z-index:2;
+    font-size:24px; letter-spacing:6px; color:#A7837B; text-indent:6px;
+  }
+</style>
+</head>
+<body>
+  <div class="poster">
+    <div class="zero">0</div>
+    <div class="brand">WHITE&nbsp;PEACH<small>白 桃 气 泡 水</small></div>
+    <img class="can" src="can.png" alt="">
+    <div class="eyebrow">夏 日 限 定 · SUMMER</div>
+    <div class="headline">白桃之夏<br><span class="accent">0 糖 0 卡</span></div>
+    <div class="sub">真实白桃原浆 · 绵密微气泡 · 赤藓糖醇代糖</div>
+    <div class="divider"></div>
+    <div class="price">
+      <div class="label">尝 鲜 价</div>
+      <div class="amount"><span class="cur">¥</span>9.9</div>
+      <div class="unit">/ 罐 · 整箱更划算</div>
+    </div>
+    <div class="cta">立即尝鲜 →</div>
+    <div class="trust">0 蔗糖 · 0 防腐剂 · 喝甜不升糖</div>
+  </div>
+</body>
+</html>

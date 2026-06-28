@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "bailian-docs-llm-wiki": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/bailian-docs-llm-wiki/SKILL.md",
+      "computedHash": "ddb0b07ad8f4792396672d99ce16e825f5c2bdfb4194b5c76bc53d7bed59a730"
+    },
+    "bailian-model-recommend": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/bailian-model-recommend/SKILL.md",
+      "computedHash": "514f9b56c0b2f116630a0220959bfb00a7937162346bb78c339c59a7a07299c1"
+    },
+    "financial-expert": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/financial-expert/SKILL.md",
+      "computedHash": "9ed5a1b70c23c4c1fd0b56793d7681829044fb768ef7671b34805d83973c46db"
+    },
+    "happyhorse-prompt-studio": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/happyhorse-prompt-studio/SKILL.md",
+      "computedHash": "acb7a94cc88f782f60d1c6f69cd6bda85a9733865c49adc6b5f5edb9da3c6362"
+    },
+    "novel-game": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/novel-game/SKILL.md",
+      "computedHash": "39b740b5e12c9698c757cef0d06b5af27e912a1e292b39d599531ae67abebe2a"
+    },
+    "spark-video-episode": {
+      "source": "modelstudioai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/spark-video/SKILL.md",
+      "computedHash": "dcdcdafcaacaa8c6ddd1b771482439c57355810d8c03dd9e6d78d2705bb64035"
+    }
+  }
+}
