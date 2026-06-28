@@ -48,6 +48,29 @@
 
 ---
 
+## 🧩 用到的 Skill
+
+**驱动生产线的 skill**
+
+| Skill | 用途 |
+|-------|------|
+| `bailian-cli`（`bl`） | 全链路模型调用：文案 / 主图 / 配音 / 图生视频 |
+| `video-storyboard` | 生成 5 段分镜图板 + 图生视频提示词脚本，保证镜头连贯 |
+| `frontend-design` | HTML/CSS 海报的视觉方向与高级感（排版、配色、融图手法） |
+
+**百炼 skill 包（`skills-lock.json`）**
+
+| Skill | 说明 |
+|-------|------|
+| `bailian-docs-llm-wiki` | 百炼文档 / 用法知识 |
+| `bailian-model-recommend` | 模型选型建议（文本 / 图像 / 视频） |
+| `happyhorse-prompt-studio` | 视频模型（happyhorse）提示词工坊 |
+| `financial-expert` | 百炼示例 skill |
+| `novel-game` | 百炼示例 skill |
+| `spark-video-episode` | 百炼视频剧集 skill |
+
+---
+
 ## 📁 目录结构
 
 ```
